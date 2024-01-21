@@ -32,7 +32,6 @@
         &kp LSHFT           &kp Z           &kp X       &kp C     &kp V             &kp B      &kp RET   &kp N     &kp M     &kp COMMA  &kp DOT    &kp FSLH     &mt RSHFT RET
                                             &kp CAPS    &kp LGUI  &lt LOWER SPACE   &kp SPACE            &kp BSPC  &lt RAISE BSPC       &kp RALT   &lt ADJUST
       >;
-      sensor-bindings = <&inc_dec_kp UP DOWN>;
     };
 
     lower_layer {
@@ -42,7 +41,6 @@
         &kp LSHFT   &trans   &trans  &trans   &trans  &trans   &kp C_MUTE           &trans    &trans    &trans      &trans     &trans  &mt RSHFT RET
                              &trans  &trans   &mo 3   &kp SPACE                     &kp BSPC  &kp BSPC  &kp RALT    &kp RCTRL
       >;
-      sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;  
     };
 
     raise_layer {
@@ -52,7 +50,6 @@
         &trans    &trans    &trans  &trans   &trans   &trans     &kp C_PLAY_PAUSE     &kp UNDER           &kp PLUS          &kp LBRC            &kp RBRC     &kp PIPE   &kp TILDE
                             &trans  &kp LGUI &trans   &kp SPACE                       &kp BSPC            &mo 3             &kp RALT            &kp RCTRL
       >;
-      sensor-bindings = <&inc_dec_kp LEFT RIGHT>;
     };
 
     adjust_layer {
@@ -62,7 +59,6 @@
         &none         &none           &none           &none           &none           &none       &kp C_MUTE    &bootloader   &none         &kp DEL       &kp END     &kp PG_DN         &none
                                       &trans          &trans          &trans          &trans                    &trans        &trans        &trans        &trans
       >;
-      sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
     };
 
     num_layer {
@@ -72,7 +68,6 @@
         &kp LSHFT   &trans   &trans  &trans   &trans  &trans   &kp C_MUTE           &kp N1   &kp N2    &kp N3    &kp COMMA   &kp EQUAL         &mt RSHFT RET
                              &trans  &trans   &mo 3   &kp SPACE                     &kp BSPC &kp N0    &kp DOT   &trans
       >;
-      sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;  
     };
 
      func_layer {
@@ -82,7 +77,6 @@
         &trans      &trans    &trans   &trans    &trans   &trans   &kp C_MUTE        &kp F1    &kp F2    &kp F3    &kp F4   &trans  &trans
                               &trans   &trans    &trans   &trans                     &trans    &trans    &trans    &trans
       >;
-      sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;  
     };
 
   };
