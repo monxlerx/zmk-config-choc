@@ -16,5 +16,6 @@
     compatible = "zmk";
     label = "KSCAN";
     diode-direction = "col2row";
+    };
 };
 
