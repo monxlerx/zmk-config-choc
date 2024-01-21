@@ -28,6 +28,3 @@
     };
 };
 
-&middle_encoder {
-    status = "okay";
-};
